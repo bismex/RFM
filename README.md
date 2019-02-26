@@ -11,17 +11,29 @@ Gait is a useful biometric feature for human identification in video surveillanc
 
 ### Overall framework
 
-<img src='./img/overall.png' width='950'>
+<img src='./img/Fig1.png' width='950'>
+
+### Usage 
+
 
 ### Experimental results
 
-<img src='./img/1.png' width='950'>
-<img src='./img/2.png' width='950'>
-<img src='./img/3.png' width='950'>
-<img src='./img/4.png' width='950'>
-<img src='./img/5.png' width='950'>
-<img src='./img/6.png' width='950'>
-<img src='./img/7.png' width='950'>
+<img src='./img/Fig1.png' width='950'>
+<img src='./img/Fig2.png' width='950'>
+<img src='./img/Fig3.png' width='950'>
+<img src='./img/Fig4.png' width='950'>
+<img src='./img/Fig5.png' width='950'>
+<img src='./img/Fig6.png' width='950'>
+<img src='./img/Fig7.png' width='950'>
+<img src='./img/Fig8.png' width='950'>
+<img src='./img/Fig9.png' width='950'>
+<img src='./img/Fig10.png' width='950'>
+<img src='./img/Fig11.png' width='950'>
+<img src='./img/Table1.png' width='950'>
+<img src='./img/Table2.png' width='950'>
+<img src='./img/Table3.png' width='950'>
+<img src='./img/Table4.png' width='950'>
+<img src='./img/Table5.png' width='950'>
 
 
 
