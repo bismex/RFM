@@ -17,26 +17,26 @@ Gait is a useful biometric feature for human identification in video surveillanc
 
 ### Usage 
 
-1. Download the dataset, and modify each format and path. (function : NodeComposition)
-(Datasets for gait recognition are not provided directly in the code by privacy)
+(1) Download the dataset, and modify each format and path. (function : NodeComposition)
+- (Datasets for gait recognition are not provided directly in the code by privacy)
 - UPCV1 & UPCV2 : http://www.upcv.upatras.gr/personal/kastaniotis/datasets.html
 - SDUgait : https://sites.google.com/site/sdugait/
 - CILgait : https://sites.google.com/site/seokeonchoi/gait-recognition
 
-For example:UPCV1)
--> Download "UPCV_gait_r1.zip"
--> Move "UPCVgait.mat" file (in the /UPCV_gait_r1/upcvgaitV1/MatlabFormat/) to "/PATHTO/DB/UPCV1/"
--> Change the file name "UPCVgait.mat" to "data.mat"
+- For example:UPCV1)
+  -> Download "UPCV_gait_r1.zip"
+  -> Move "UPCVgait.mat" file (in the /UPCV_gait_r1/upcvgaitV1/MatlabFormat/) to "/PATHTO/DB/UPCV1/"
+  -> Change the file name "UPCVgait.mat" to "data.mat"
 
-2. Run main.m
+(2) Run main.m
 
-3. Set parameters (function : SetParametersManual)
+(3) Set parameters (function : SetParametersManual)
 - If you want to do various experiments as in the manuscript, carefully confirm the below functions. 
 (SetFlagGen, SetParameters, SetSituations, SetMethods, SetNames)
 - But these functions are very complicated... (so many experiments)
 - We recommend that you manually change the parameters and check for changes in performance.
 
-If you have any questions, please contact us through email (seokeon@kaist.ac.kr). 
+##### If you have any questions, please contact us through email (seokeon@kaist.ac.kr). 
 
 ---
 
@@ -53,47 +53,30 @@ If you have any questions, please contact us through email (seokeon@kaist.ac.kr)
 We are so grateful to these authors.
 
 <Dataset> 
-1) UPCV1 
-- D. Kastaniotis, I. Theodorakopoulos, C. Theoharatos, G. Economou, and S. Fotopoulos, 
-"A framework for gait-based recognition using kinect,"
-Pattern Recognit. Lett., vol. 68, pp. 327?335, 2015.
-- D. Kastaniotis, I. Theodorakopoulos, G. Economou, and S. Fotopoulos,
-"Gait-based gender recognition using pose information for real time applications,"
-in Proc. IEEE Int. Conf. Digit. Signal Process., 2013, pp. 1?6.
+  
+(1) UPCV1 
+- D. Kastaniotis, I. Theodorakopoulos, C. Theoharatos, G. Economou, and S. Fotopoulos, "A framework for gait-based recognition using kinect," Pattern Recognit. Lett., vol. 68, pp. 327?335, 2015.
 
-2) UPCV2 
-- D. Kastaniotis, I. Theodorakopoulos, G. Economou, and S. Fotopoulos,
-"Gait based recognition via fusing information from euclidean and riemannian manifolds," 
-Pattern Recognit. Lett., vol. 84, pp. 245?251, 2016.
+- D. Kastaniotis, I. Theodorakopoulos, G. Economou, and S. Fotopoulos, "Gait-based gender recognition using pose information for real time applications," in Proc. IEEE Int. Conf. Digit. Signal Process., 2013, pp. 1?6.
 
-3) SDUgait 
-- Y. Wang, J. Sun, J. Li, and D. Zhao, 
-"Gait recognition based on 3d skeleton joints captured by kinect,"
-in Proc. IEEE Int. Conf. Image Process., 2016, pp. 3151?3155.
-- J. Sun, Y.Wang, J. Li,W.Wan, D. Cheng, and H. Zhang, 
-"View-invariant gait recognition based on kinect skeleton feature," 
-Multimed. Tools Appl., pp. 1?27, 2018.
+(2) UPCV2 
+- D. Kastaniotis, I. Theodorakopoulos, G. Economou, and S. Fotopoulos, "Gait based recognition via fusing information from euclidean and riemannian manifolds," Pattern Recognit. Lett., vol. 84, pp. 245?251, 2016.
 
-<Comparison target>
-1) D. Kastaniotis, I. Theodorakopoulos, C. Theoharatos, G. Economou, and S. Fotopoulos, 
-"A framework for gait-based recognition using kinect,"
-Pattern Recognit. Lett., vol. 68, pp. 327?335, 2015.
+(3) SDUgait 
+- Y. Wang, J. Sun, J. Li, and D. Zhao, "Gait recognition based on 3d skeleton joints captured by kinect," in Proc. IEEE Int. Conf. Image Process., 2016, pp. 3151?3155.
+- J. Sun, Y.Wang, J. Li,W.Wan, D. Cheng, and H. Zhang, "View-invariant gait recognition based on kinect skeleton feature," Multimed. Tools Appl., pp. 1?27, 2018.
 
-2) F. Ahmed, P. P. Paul, and M. L. Gavrilova, 
-"Dtw-based kernel and rank-level fusion for 3d gait recognition using kinect,"
-Vis. Comput., vol. 31, no. 6-8, pp. 915?924, 2015.
+#### <Comparison target>
+  
+(1) D. Kastaniotis, I. Theodorakopoulos, C. Theoharatos, G. Economou, and S. Fotopoulos, "A framework for gait-based recognition using kinect," Pattern Recognit. Lett., vol. 68, pp. 327?335, 2015.
 
-3) J. Preis, M. Kessel, M. Werner, and C. Linnhoff-Popien, 
-"Gait recognition with kinect," 
-in Proc. Int. Workshop Kinect Pervasive Comput., 2012, pp. P1?P4.
+(2) F. Ahmed, P. P. Paul, and M. L. Gavrilova, "Dtw-based kernel and rank-level fusion for 3d gait recognition using kinect," Vis. Comput., vol. 31, no. 6-8, pp. 915?924, 2015.
 
-4) D. Kastaniotis, I. Theodorakopoulos, G. Economou, and S. Fotopoulos,
-"Gait-based gender recognition using pose information for real time applications,"
-in Proc. IEEE Int. Conf. Digit. Signal Process., 2013, pp. 1?6.
+(3) J. Preis, M. Kessel, M. Werner, and C. Linnhoff-Popien, "Gait recognition with kinect," in Proc. Int. Workshop Kinect Pervasive Comput., 2012, pp. P1?P4.
 
-5) A. Ball, D. Rye, F. Ramos, and M. Velonaki, 
-"Unsupervised clustering of people from 'skeleton' data," 
-in Proc. ACM/IEEE Int. Conf. Human-Robot Interact., 2012, pp. 225?226.
+(4) D. Kastaniotis, I. Theodorakopoulos, G. Economou, and S. Fotopoulos, "Gait-based gender recognition using pose information for real time applications," in Proc. IEEE Int. Conf. Digit. Signal Process., 2013, pp. 1?6.
+
+(5) A. Ball, D. Rye, F. Ramos, and M. Velonaki, "Unsupervised clustering of people from 'skeleton' data," in Proc. ACM/IEEE Int. Conf. Human-Robot Interact., 2012, pp. 225?226.
 
 ---
 
@@ -106,7 +89,7 @@ in Proc. ACM/IEEE Int. Conf. Human-Robot Interact., 2012, pp. 225?226.
 <img src='./img/Fig5.PNG' width='500'>
 <img src='./img/Fig6.PNG' width='500'>
 <img src='./img/Fig7.PNG' width='500'>
-<img src='./img/Fig8.PNG' width='950'>
+<img src='./img/Fig8.PNG' width='500'>
 <img src='./img/Fig9.PNG' width='500'>
 <img src='./img/Fig10.PNG' width='950'>
 <img src='./img/Fig11.PNG' width='500'>
