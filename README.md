@@ -52,7 +52,7 @@ Gait is a useful biometric feature for human identification in video surveillanc
 
 We are so grateful to these authors.
 
-<Dataset> 
+#### Dataset 
   
 (1) UPCV1 
 - D. Kastaniotis, I. Theodorakopoulos, C. Theoharatos, G. Economou, and S. Fotopoulos, "A framework for gait-based recognition using kinect," Pattern Recognit. Lett., vol. 68, pp. 327?335, 2015.
@@ -66,7 +66,7 @@ We are so grateful to these authors.
 - Y. Wang, J. Sun, J. Li, and D. Zhao, "Gait recognition based on 3d skeleton joints captured by kinect," in Proc. IEEE Int. Conf. Image Process., 2016, pp. 3151?3155.
 - J. Sun, Y.Wang, J. Li,W.Wan, D. Cheng, and H. Zhang, "View-invariant gait recognition based on kinect skeleton feature," Multimed. Tools Appl., pp. 1?27, 2018.
 
-#### <Comparison target>
+#### Comparison target
   
 (1) D. Kastaniotis, I. Theodorakopoulos, C. Theoharatos, G. Economou, and S. Fotopoulos, "A framework for gait-based recognition using kinect," Pattern Recognit. Lett., vol. 68, pp. 327?335, 2015.
 
