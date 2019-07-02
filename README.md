@@ -1,6 +1,6 @@
 ## Skeleton-based Gait Recognition via Robust Frame-level Matching (RFM)
 #### This paper is accepted to IEEE Transactions on Information Forensics and Security [TIFS 2019]
-#### Impact factor: 5.824
+#### Impact factor: 6.211
 #### [Go to project page!](https://sites.google.com/site/seokeonchoi/gait-recognition)
 ---
 
