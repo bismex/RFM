@@ -13,7 +13,6 @@ Gait is a useful biometric feature for human identification in video surveillanc
 
 ---
 
-
 ### Overall framework
 
 <img src='./img/Fig1.PNG' width='950'>
