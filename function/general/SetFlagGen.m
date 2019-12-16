@@ -17,6 +17,7 @@ for i = 1 : numel(exp_cases)
     switch exp_cases{i}
         case 'DB_all', DB.flag_total = cat(2, DB.flag_total, case_gen(0, DB_all_error, 0)); 
         case 'basic', DB.flag_total = cat(2, DB.flag_total, case_gen(0, 0, 0:6));
+        case 'RFM', DB.flag_total = cat(2, DB.flag_total, case_gen(0, 0, 0));
             
         %% Ablation studies of our method (exp0)
         case 'D', DB.flag_total = cat(2, DB.flag_total, case_gen(100, [DB_all, 123:124], 0:6)); % Overall performance !! (basic experiment) ***
