@@ -22,7 +22,8 @@ exp3 = {'G', 'Gs1', 'Gs2', 'Ps1', 'Ps2'}; % exp3 : Robustness evaluation (data-r
 exp4 = {'REAL1', 'REAL2', 'OPENSET1', 'OPENSET2'}; % exp4 : Extension to real-world applications
 
 DB_R.flag_gen = cat(2, exp0, exp1, exp2, exp3, exp4); 
-DB_R.flag_gen = {'basic'};
+% DB_R.flag_gen = {'basic'};
+DB_R.flag_gen = {'RFM'};
 DB_R.restart_num = 0; 
 DB_R.continue = 1;
 DB_R.reverse = 0;
