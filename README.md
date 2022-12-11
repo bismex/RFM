@@ -1,7 +1,5 @@
 ## Skeleton-based Gait Recognition via Robust Frame-level Matching (RFM)
 #### This paper is accepted to IEEE Transactions on Information Forensics and Security [TIFS 2019]
-#### Impact factor: 6.211
-#### [Go to project page!](https://sites.google.com/site/seokeonchoi/gait-recognition)
 #### [Paper!](https://drive.google.com/file/d/1ey72F8vQQjftLbRucDG-GtXeJneM-Yyv/view?usp=sharing)
 
 ---
@@ -25,7 +23,7 @@ Gait is a useful biometric feature for human identification in video surveillanc
 - (Datasets for gait recognition are not provided directly in the code by privacy)
 - UPCV1 & UPCV2 : http://www.upcv.upatras.gr/personal/kastaniotis/datasets.html
 - SDUgait : https://sites.google.com/site/sdugait/
-- CILgait : https://sites.google.com/site/seokeonchoi/gait-recognition
+- CILgait : [download](https://drive.google.com/open?id=1LqWl0qGqL-yWKbPkLmB-GI2oi9KVPEi6)
 
 - For example:UPCV1)
   -> Download "UPCV_gait_r1.zip"
